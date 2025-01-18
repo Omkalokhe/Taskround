@@ -1,10 +1,10 @@
 import 'dart:developer';
 import 'package:get/get.dart';
-import 'package:login_registration/m/register_user_response.dart';
-import 'package:login_registration/m/verify_response.dart';
+import 'package:login_registration/model/register_user_response.dart';
+import 'package:login_registration/model/verify_response.dart';
 import 'package:login_registration/service/srevice.dart';
 
-import '../m/registeruser.dart';
+import '../model/registeruser.dart';
 
 class AuthController extends GetxController {
   var otpsend = false.obs;

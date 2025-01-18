@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controller/auth_controller.dart';
-import '../m/registeruser.dart';
+import '../model/registeruser.dart';
 
 
 class RegisterScreen extends StatelessWidget {
